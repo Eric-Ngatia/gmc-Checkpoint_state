@@ -1,0 +1,30 @@
+.User_profil{
+    border: 2px solid blue;
+    border-bottom-left-radius:50px ;
+    border-top-right-radius:50px ;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-size: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.delete{
+    color: red;
+}
