@@ -25,7 +25,7 @@ export class User extends Component {
                             <p>Developpeur FullStack</p>
                         </li>
 
-                        <li> <button onClick={()=> this.onDeleteClick(this.props.id)} ><FontAwesomeIcon className='delete' icon={faTrash}/></button> </li>
+                        <li> <button id='btn' onClick={()=> this.onDeleteClick(this.props.id)} ><FontAwesomeIcon className='delete' icon={faTrash}/></button> </li>
                     </ul>
                 </div>
             </div>
